@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="mainview" bindtouchmove="handletouchmove" bindtouchcancel="handletouchcancel" bindtouchend = "handletouchend" >
+    <view class="littleBlock1">{{num[0]}}</view>
+    <view class="littleBlock2">{{num[1]}}</view>
+    <view class="littleBlock3">{{num[2]}}</view>
+    <view class="littleBlock1">{{num[3]}}</view>
+    <view class="littleBlock2">{{num[4]}}</view>
+    <view class="littleBlock3">{{num[5]}}</view>
+    <view class="littleBlock1">{{num[6]}}</view>
+    <view class="littleBlock2">{{num[7]}}</view>
+    <view class="littleBlock3">{{num[8]}}</view>
+  </view>
+  <button class="resetbutton" bindtap="initMap">Reset</button>
+  
+</view>

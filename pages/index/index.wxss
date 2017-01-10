@@ -1,0 +1,67 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 188rpx;
+  height: 188rpx;
+  margin: 20rpx;
+  border-radius: 10%;
+}
+
+.userinfo-nickname {
+  color: #555;
+}
+
+.mainview {
+  width:620rpx;
+  height: 620rpx;
+  margin-top: 10px;
+  background-color: #aaa;
+}
+
+.resetbutton {
+  margin-top: 50rpx
+}
+
+.littleBlock1 {
+  width:200rpx;
+  height:200rpx;
+  margin-top: 5rpx;
+  margin-left: 5rpx;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 200rpx;
+  float: left;
+}
+.littleBlock2 {
+  width:200rpx;
+  height:200rpx;
+  margin-top: 5rpx;
+  margin-left: 5rpx;
+  background-color: #dd3;
+  text-align: center;
+  line-height: 200rpx;
+  float: left;
+  
+}
+.littleBlock3 {
+  width:200rpx;
+  height:200rpx;
+  margin-top: 5rpx;
+  margin-left: 5rpx;
+  background-color: #d70;
+  text-align: center;
+  line-height: 200rpx;
+  float: left;
+  clear: float; 
+}
+.timeLabel {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  color: #555;
+}
